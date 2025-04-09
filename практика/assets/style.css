@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+.registration-container {
+    width: 420px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+a {
+    color: blue;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: darkblue;
+    padding: 18px 10px 0 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+.star {
+    color: red;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    height: 35px;
+}
+
+.container {
+    margin: 50px auto;
+    width: 1600px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 40px 0;
+}
+
+th,
+td {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th,
+td {
+    background-color: #f2f2f2;
+}
+
+.new-order {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.new-order button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.but {
+    margin-top: 20px;
+}
+
+.form-block {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-block h3 {
+    text-align: center;
+}
+
+.form-block label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-block input,
+.form-block select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-block button,
+.form-block a {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-block button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-block a {
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+}
+
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.but_ad {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
