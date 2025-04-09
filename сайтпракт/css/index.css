@@ -1,0 +1,93 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, .3);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #576974;
+}
+
+.menu a:hover {
+    color: #28353D;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Форма */
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #FF4B1E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0411a;
+}
+
+/* Таблица результатов */
+.tab-results {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tab-results th,
+.tab-results td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tab-results th {
+    background-color: #dadada;
+}
